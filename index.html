@@ -1,62 +1,299 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="Stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <h1 class="logo">Advanture</h1>
-        <ul class="nav-links">
-            <li class="active"><a href="#home"></a>Home</li>
-            <li><a href="#about"></a>About</li>
-            <li><a href="#explore"></a>Explore</li>
-        </ul>
-        <img src="menu-btn.png" alt="IMGn" class="menu-btn">
-    </nav>
+   
     <header>
-        <div class="header-content" id="home">
-            <h2>Explore The Colorfil World</h2>
-            <div class="line"></div>
-            <h1>A WONDERFUL GIFT</h1>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">Flower<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
         </div>
     </header>
 
-    <section class="events" id="about">
-        <div class="title">
-            <h1>Upcomming Events</h1>
-            <div class="line"></div>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Fresh Flowers</h3>
+            <span>Natural and Beautiful Flowers</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Animi dolorum culpa sunt velit perspiciatis quas soluta? Dolorum quam adipisci suscipit vel error dicta hic sequi, 
+             temporibus enim vitae culpa magni!</p>
+
+             <a href="#" class="btn">Shop Now</a>
         </div>
-        <div class="row">
-            <div class="col">
-                <img src="img1.png" alt="">
-                <h4>Evetest camp</h4>
-                <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="col">
-                <img src="img2.png" alt="">
-                <h4>Evetest camp</h4>
-                <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-        </div>
-    </section>
-    <section class="explore" id="explore">
-        <div class="explore-content">
-            <h1>Explore The World</h1>
-        <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        </div>
-    </section>
-    <section class="footer">
-        <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Coptright @ 2022 Outerdoor Daventure</p>
     </section>
 
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> us </h1>
+        <div class="row">
+            
+            <div class="vid-container">
+                <video src="vid.mp4" loop autoplay muted></video>
+                <h3>Best Flower Sellers</h3>
+            </div>
+
+            <div class="content">
+                <h3>Why choose us?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Iusto libero doloribus exercitationem quos cum quod voluptate consequatur autem reprehenderit labore facilis minima,
+                    quas, iure est nulla expedita unde esse harum.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                     Ea sed ratione nesciunt doloribus modi rem quas quos odio exercitationem esse eum inventore vitae unde, corporis voluptates 
+                     delectus laudantium enim temporibus.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+        </div>
+    </section>
+
+    <section class="icons-container">
+        <div class="icons">
+            <img src="icon-1.png" alt="Img Not Found">
+            <div class="info">
+                <h3>Free delivery</h3>
+                <span>On all Orders</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="icon-2.png" alt="Img Not Found">
+            <div class="info">
+                <h3>10 days returns</h3>
+                <span>Moneyback Guarantee</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="icon-3.png" alt="Img Not Found">
+            <div class="info">
+                <h3>Offers and Gifts</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="icon-4.png" alt="Img Not Found">
+            <div class="info">
+                <h3>secure payments</h3>
+                <span>Protected by pay</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading"> Latest<span> Products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img-1.jpg" alt="img not found">
+                    <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                </div>
+                <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price"> Rs :- 150 <span> Rs :- 300</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="img-2.jpg" alt="img not found">
+                    <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                </div>
+                <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price"> Rs :- 150 <span> Rs :- 300</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="img-3.jpg" alt="img not found">
+                    <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                </div>
+                <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price"> Rs :- 150 <span> Rs :- 300</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="img-4.jpg" alt="img not found">
+                    <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                </div>
+                <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price"> Rs :- 150 <span> Rs :- 300</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="img-5.jpg" alt="img not found">
+                    <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                </div>
+                <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price"> Rs :- 150 <span> Rs :- 300</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="img-6.jpg" alt="img not found">
+                    <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                </div>
+                <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price"> Rs :- 150 <span> Rs :- 300</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="img-7.jpg" alt="img not found">
+                    <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                </div>
+                <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price"> Rs :- 150 <span> Rs :- 300</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="img-8.jpg" alt="img not found">
+                    <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                </div>
+                <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price"> Rs :- 150 <span> Rs :- 300</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="img-9.jpg" alt="img not found">
+                    <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                </div>
+                <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price"> Rs :- 150 <span> Rs :- 300</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h3 class="heading"><span> contact</span> us</h3>
+        <div class="row">
+
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="phone no." class="box">
+                <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+            <div class="image">
+                <img src="contact-img.svg" alt="img not found">
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#">My account</a>
+                <a href="#">My order</a>
+                <a href="#">my Fevorite</a>
+            </div>
+
+            <div class="box">
+                <h3>Location</h3>
+                <a href="#">India</a>
+                <a href="#">Japan</a>
+                <a href="#">USA</a>
+                <a href="#">France</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">simplecode@gmail.com</a>
+                <a href="#">Pandharpur, 413304</a>
+                <img src="payment.png" alt="img not found">
+            </div>
+        </div>
+        <div class="credit">Created by <span>Miss. Rutuja Deshpande</span></div>
+    </section>
+                
 </body>
-<script src="App.js"></script>
 </html>
